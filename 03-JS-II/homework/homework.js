@@ -84,6 +84,14 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+  contador = 2;
+  primo=true;
+  while ((primo) && (contador!=numero)){
+    if (numero % contador == 0)
+      primo = false;
+    contador++;
+  }
+  return primo;
 }
 
 function esVerdadero(valor){
