@@ -1,5 +1,5 @@
 # Editor de Texto.
-
+Esta es una prueba
 Para poder escribir código que pueda ser interpretado por un lenguaje de programación, necesitamos utilizar un editor de texto.
 Hay varios. Puedes probarlos y elegir con el que te sientas más a gusto.
 
